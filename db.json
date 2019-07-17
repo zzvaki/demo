@@ -1,323 +1,325 @@
 {
-  "contacts": [
-    {
-      "id": 1,
-      "url": "https://picsum.photos/100/?random=0",
-      "name": "营救专家1",
-      "dept": "区卫生局1",
-      "tel": "12312341234",
-      "typeId": 1,
-      "type": "工厂"
-    },
-    {
-      "id": 2,
-      "url": "https://picsum.photos/100/?random=1",
-      "name": "营救专家2",
-      "dept": "区卫生局2",
-      "tel": "15812885451",
-      "typeId": 1,
-      "type": "工厂"
-    },
-    {
-      "id": 3,
-      "url": "https://picsum.photos/100/?random=2",
-      "name": "营救专家3",
-      "dept": "区卫生局3",
-      "tel": "13115111211",
-      "typeId": 1,
-      "type": "工厂"
-    },
-    {
-      "id": 4,
-      "url": "https://picsum.photos/100/?random=3",
-      "name": "营救专家4",
-      "dept": "区卫生局",
-      "tel": "15478413524",
-      "typeId": 1,
-      "type": "工厂"
-    },
-    {
-      "id": 5,
-      "url": "https://picsum.photos/100/?random=4",
-      "name": "营救专家5",
-      "dept": "区卫生局",
-      "tel": "12312341234",
-      "typeId": 2,
-      "type": "分厂"
-    },
-    {
-      "id": 6,
-      "url": "https://picsum.photos/100/?random=5",
-      "name": "营救专家1",
-      "dept": "区卫生局",
-      "tel": "12312341234",
-      "typeId": 3,
-      "type": "应急组织"
-    },
-    {
-      "id": 7,
-      "url": "https://picsum.photos/100/?random=6",
-      "name": "营救专家111",
-      "dept": "区卫生局",
-      "tel": "12312341234",
-      "typeId": 3,
-      "type": "应急组织"
-    },
-    {
-      "id": 8,
-      "url": "https://picsum.photos/100/?random=7",
-      "name": "营救专家2",
-      "dept": "区卫生局",
-      "tel": "12312341234",
-      "typeId": 3,
-      "type": "应急组织"
-    }
-  ],
-  "staff": [
-    {
-      "id": "001",
-      "name": "王大海",
-      "namePinyin": "wangdahai",
-      "sex": "男",
-      "tel": "12312341234",
-      "compId": 1,
-      "comp": "生产基地",
-      "deptId": 23,
-      "dept": "事故应急科",
-      "postId": 1,
-      "post": "副主任",
-      "dutyId": 1,
-      "duty": "应急总指挥",
-      "typeId": 1,
-      "type": "工厂"
-    },
-    {
-      "id": "002",
-      "name": "李大锤",
-      "namePinyin": "lidachui",
-      "sex": "男",
-      "tel": "12344441111",
-      "compId": 2,
-      "comp": "晨光设计院",
-      "deptId": 21,
-      "dept": "二分厂",
-      "postId": 3,
-      "post": "厂长",
-      "dutyId": 1,
-      "duty": "副总指挥",
-      "typeId": 1,
-      "type": "工厂"
-    },
-    {
-      "id": "003",
-      "name": "刘德华",
-      "namePinyin": "liudehua",
-      "sex": "男",
-      "tel": "12344441111",
-      "compId": 3,
-      "comp": "晨光设计院",
-      "deptId": 22,
-      "dept": "二分厂",
-      "postId": 3,
-      "post": "厂长",
-      "dutyId": 1,
-      "duty": "副总指挥",
-      "typeId": 2,
-      "type": "应急组织"
-    }
-  ],
-  "dept": [
-    {
-      "label": "中昊晨光",
-      "id": 1,
-      "children": [
-        {
-          "label": "生产基地",
-          "id": 2,
-          "children": [
-            {
-              "label": "办公室",
-              "id": 21
-            },
-            {
-              "label": "财务处",
-              "id": 22
-            },
-            {
-              "label": "工程处",
-              "id": 23
-            }
-          ]
-        },
-        {
-          "label": "晨光设计院",
-          "id": 3,
-          "children": [
-            {
-              "label": "办公室",
-              "id": 31
-            },
-            {
-              "label": "财务处",
-              "id": 32
-            },
-            {
-              "label": "工程处",
-              "id": 33
-            }
-          ]
-        },
-        {
-          "label": "自贡安监局",
-          "id": 4,
-          "children": [
-            {
-              "label": "办公室",
-              "id": 41
-            },
-            {
-              "label": "财务处",
-              "id": 42
-            },
-            {
-              "label": "工程处",
-              "id": 43
-            }
-          ]
-        }
-      ]
-    }
-  ],
-  "dutyplan": [
-    {
-      "date": "2019-07-15",
-      "onDuty": "值班"
-    },
-    {
-      "date": "2019-07-16",
-      "onDuty": "值班"
-    },
-    {
-      "date": "2019-07-17",
-      "onDuty": "值班"
-    }
-  ],
-  "knowledge": [
-    {
-      "typeId": 9,
-      "name": "知识名称一",
-      "title": "主题词一主题词一主题词一",
-      "date": "2019-07-01",
-      "dept": "颁发部门一",
-      "update": "2019-07-16",
-      "docOrLink": "link",
-      "doc": "",
-      "Link": "www.baidu.com",
-      "description": "《中华人民共和国突发应对》",
-      "id": 1
-    },
-    {
-      "typeId": 9,
-      "id": 2,
-      "name": "知识名称二",
-      "title": "主题词二",
-      "date": "2019-06-01",
-      "dept": "颁发部门二",
-      "update": "2019-06-16",
-      "docOrLink": "link",
-      "doc": "",
-      "Link": "www.baidu.com",
-      "description": "《中华人民共和国突发应对二》"
-    },
-    {
-      "typeId": 9,
-      "id": 3,
-      "name": "知识名称三",
-      "title": "主题词三",
-      "date": "2019-05-01",
-      "dept": "颁发部门三",
-      "update": "2019-05-16",
-      "docOrLink": "link",
-      "doc": "",
-      "Link": "www.baidu.com",
-      "description": "《中华人民共和国突发应对三》"
-    },
-    {
-      "id": 4,
-      "name": "水发一",
-      "title": "主体一",
-      "date": "2019-07-03",
-      "dept": "部门一",
-      "update": "2019-07-04",
-      "docOrLink": "link",
-      "doc": "",
-      "Link": "链接一",
-      "description": "内容一",
-      "typeId": 10
-    }
-  ],
-  "knowledgetype": [
-    {
-      "id": 1,
-      "label": "法律法规",
-      "children": [
-        {
-          "id": 4,
-          "label": "自然灾害",
-          "children": [
-            {
-              "id": 9,
-              "label": "中国突发事件应对法"
-            },
-            {
-              "id": 10,
-              "label": "水法"
-            }
-          ]
-        },
-        {
-          "id": 11,
-          "label": "事故灾难",
-          "children": [
-            {
-              "id": 12,
-              "label": "安全生产事故报告"
-            }
-          ]
-        },
-        {
-          "id": 13,
-          "label": "公共卫生"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "label": "常识经验",
-      "children": [
-        {
-          "id": 5,
-          "label": "旅游安全"
-        },
-        {
-          "id": 6,
-          "label": "防火常识"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "label": "技术规范",
-      "children": [
-        {
-          "id": 7,
-          "label": "应用标准"
-        },
-        {
-          "id": 8,
-          "label": "管理标准"
-        }
-      ]
-    }
-  ]
+  "ems": {
+    "contacts": [
+      {
+        "id": 1,
+        "url": "https://picsum.photos/100/?random=0",
+        "name": "营救专家1",
+        "dept": "区卫生局1",
+        "tel": "12312341234",
+        "typeId": 1,
+        "type": "工厂"
+      },
+      {
+        "id": 2,
+        "url": "https://picsum.photos/100/?random=1",
+        "name": "营救专家2",
+        "dept": "区卫生局2",
+        "tel": "15812885451",
+        "typeId": 1,
+        "type": "工厂"
+      },
+      {
+        "id": 3,
+        "url": "https://picsum.photos/100/?random=2",
+        "name": "营救专家3",
+        "dept": "区卫生局3",
+        "tel": "13115111211",
+        "typeId": 1,
+        "type": "工厂"
+      },
+      {
+        "id": 4,
+        "url": "https://picsum.photos/100/?random=3",
+        "name": "营救专家4",
+        "dept": "区卫生局",
+        "tel": "15478413524",
+        "typeId": 1,
+        "type": "工厂"
+      },
+      {
+        "id": 5,
+        "url": "https://picsum.photos/100/?random=4",
+        "name": "营救专家5",
+        "dept": "区卫生局",
+        "tel": "12312341234",
+        "typeId": 2,
+        "type": "分厂"
+      },
+      {
+        "id": 6,
+        "url": "https://picsum.photos/100/?random=5",
+        "name": "营救专家1",
+        "dept": "区卫生局",
+        "tel": "12312341234",
+        "typeId": 3,
+        "type": "应急组织"
+      },
+      {
+        "id": 7,
+        "url": "https://picsum.photos/100/?random=6",
+        "name": "营救专家111",
+        "dept": "区卫生局",
+        "tel": "12312341234",
+        "typeId": 3,
+        "type": "应急组织"
+      },
+      {
+        "id": 8,
+        "url": "https://picsum.photos/100/?random=7",
+        "name": "营救专家2",
+        "dept": "区卫生局",
+        "tel": "12312341234",
+        "typeId": 3,
+        "type": "应急组织"
+      }
+    ],
+    "staff": [
+      {
+        "id": "001",
+        "name": "王大海",
+        "namePinyin": "wangdahai",
+        "sex": "男",
+        "tel": "12312341234",
+        "compId": 1,
+        "comp": "生产基地",
+        "deptId": 23,
+        "dept": "事故应急科",
+        "postId": 1,
+        "post": "副主任",
+        "dutyId": 1,
+        "duty": "应急总指挥",
+        "typeId": 1,
+        "type": "工厂"
+      },
+      {
+        "id": "002",
+        "name": "李大锤",
+        "namePinyin": "lidachui",
+        "sex": "男",
+        "tel": "12344441111",
+        "compId": 2,
+        "comp": "晨光设计院",
+        "deptId": 21,
+        "dept": "二分厂",
+        "postId": 3,
+        "post": "厂长",
+        "dutyId": 1,
+        "duty": "副总指挥",
+        "typeId": 1,
+        "type": "工厂"
+      },
+      {
+        "id": "003",
+        "name": "刘德华",
+        "namePinyin": "liudehua",
+        "sex": "男",
+        "tel": "12344441111",
+        "compId": 3,
+        "comp": "晨光设计院",
+        "deptId": 22,
+        "dept": "二分厂",
+        "postId": 3,
+        "post": "厂长",
+        "dutyId": 1,
+        "duty": "副总指挥",
+        "typeId": 2,
+        "type": "应急组织"
+      }
+    ],
+    "dept": [
+      {
+        "label": "中昊晨光",
+        "id": 1,
+        "children": [
+          {
+            "label": "生产基地",
+            "id": 2,
+            "children": [
+              {
+                "label": "办公室",
+                "id": 21
+              },
+              {
+                "label": "财务处",
+                "id": 22
+              },
+              {
+                "label": "工程处",
+                "id": 23
+              }
+            ]
+          },
+          {
+            "label": "晨光设计院",
+            "id": 3,
+            "children": [
+              {
+                "label": "办公室",
+                "id": 31
+              },
+              {
+                "label": "财务处",
+                "id": 32
+              },
+              {
+                "label": "工程处",
+                "id": 33
+              }
+            ]
+          },
+          {
+            "label": "自贡安监局",
+            "id": 4,
+            "children": [
+              {
+                "label": "办公室",
+                "id": 41
+              },
+              {
+                "label": "财务处",
+                "id": 42
+              },
+              {
+                "label": "工程处",
+                "id": 43
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "dutyplan": [
+      {
+        "date": "2019-07-15",
+        "onDuty": "值班"
+      },
+      {
+        "date": "2019-07-16",
+        "onDuty": "值班"
+      },
+      {
+        "date": "2019-07-17",
+        "onDuty": "值班"
+      }
+    ],
+    "knowledge": [
+      {
+        "typeId": 9,
+        "name": "知识名称一",
+        "title": "主题词一主题词一主题词一",
+        "date": "2019-07-01",
+        "dept": "颁发部门一",
+        "update": "2019-07-16",
+        "docOrLink": "link",
+        "doc": "",
+        "Link": "www.baidu.com",
+        "description": "《中华人民共和国突发应对》",
+        "id": 1
+      },
+      {
+        "typeId": 9,
+        "id": 2,
+        "name": "知识名称二",
+        "title": "主题词二",
+        "date": "2019-06-01",
+        "dept": "颁发部门二",
+        "update": "2019-06-16",
+        "docOrLink": "link",
+        "doc": "",
+        "Link": "www.baidu.com",
+        "description": "《中华人民共和国突发应对二》"
+      },
+      {
+        "typeId": 9,
+        "id": 3,
+        "name": "知识名称三",
+        "title": "主题词三",
+        "date": "2019-05-01",
+        "dept": "颁发部门三",
+        "update": "2019-05-16",
+        "docOrLink": "link",
+        "doc": "",
+        "Link": "www.baidu.com",
+        "description": "《中华人民共和国突发应对三》"
+      },
+      {
+        "id": 4,
+        "name": "水发一",
+        "title": "主体一",
+        "date": "2019-07-03",
+        "dept": "部门一",
+        "update": "2019-07-04",
+        "docOrLink": "link",
+        "doc": "",
+        "Link": "链接一",
+        "description": "内容一",
+        "typeId": 10
+      }
+    ],
+    "knowledgetype": [
+      {
+        "id": 1,
+        "label": "法律法规",
+        "children": [
+          {
+            "id": 4,
+            "label": "自然灾害",
+            "children": [
+              {
+                "id": 9,
+                "label": "中国突发事件应对法"
+              },
+              {
+                "id": 10,
+                "label": "水法"
+              }
+            ]
+          },
+          {
+            "id": 11,
+            "label": "事故灾难",
+            "children": [
+              {
+                "id": 12,
+                "label": "安全生产事故报告"
+              }
+            ]
+          },
+          {
+            "id": 13,
+            "label": "公共卫生"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "label": "常识经验",
+        "children": [
+          {
+            "id": 5,
+            "label": "旅游安全"
+          },
+          {
+            "id": 6,
+            "label": "防火常识"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "label": "技术规范",
+        "children": [
+          {
+            "id": 7,
+            "label": "应用标准"
+          },
+          {
+            "id": 8,
+            "label": "管理标准"
+          }
+        ]
+      }
+    ]
+  }
 }
